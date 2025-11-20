@@ -33,8 +33,7 @@ export const PRICING_DATA: PriceCategory[] = [
     iconName: 'Bike',
     description: 'Para motocicletas, motonetas e triciclos.',
     items: [
-      { service: 'Placa Padrão (1ª Via)', value: 'R$ 80,00', highlight: true },
-      { service: 'Segunda Via (Reposição)', value: 'R$ 200,00' },
+      { service: 'Placa Moto', value: 'R$ 80,00', highlight: true },
     ]
   },
   {
@@ -43,8 +42,10 @@ export const PRICING_DATA: PriceCategory[] = [
     iconName: 'Car',
     description: 'Para veículos de passeio, caminhonetes e caminhões.',
     items: [
-      { service: 'Primeira Via', value: 'R$ 120,00', highlight: true },
-      { service: 'Segunda Via (Par Dianteira/Traseira)', value: 'R$ 250,00' },
+      { service: 'Placa Padrão (par)', value: 'R$ 120,00', highlight: true },
+      { service: 'Segunda Via (Par)', value: 'R$ 250,00' },
+      { service: 'Placa Padrão (unidade)', value: 'R$ 70,00' },
+      { service: 'Segunda Via (Reposição)', value: 'R$ 200,00' },
     ]
   },
   {
@@ -55,7 +56,6 @@ export const PRICING_DATA: PriceCategory[] = [
     items: [
       { service: 'Placa Preta (Colecionador)', value: 'R$ 300,00' },
       { service: 'Placa Mini / Reduzida', value: 'R$ 300,00' },
-      { service: 'Decorativa', value: 'A partir de R$ 160,00' },
     ]
   }
 ];
