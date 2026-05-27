@@ -31,8 +31,18 @@ const Header: React.FC = () => {
           </div>
 
           {/* CTA Area - Aligned Right */}
-          <div className="flex items-center">
-            <a 
+          <div className="flex items-center gap-3">
+
+             <div className="hidden md:flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 backdrop-blur-sm">
+            
+              <span className="text-lg">🚚</span>
+           
+              <span className="text-sm font-medium text-white">
+                 Entrega grátis até 10 km
+              </span>
+             </div>
+
+             <a 
               href={WHATSAPP_LINK}
               target="_blank"
               rel="noopener noreferrer"
