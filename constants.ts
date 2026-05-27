@@ -1,6 +1,6 @@
 import { PriceCategory, FeatureItem } from './types';
 
-export const WHATSAPP_NUMBER = "5511962572574";
+export const WHATSAPP_NUMBER = "5511978027926";
 
 export const createWhatsAppLink = (message: string) => 
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
